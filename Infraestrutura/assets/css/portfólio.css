@@ -32,6 +32,7 @@ nav{
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid var(--color-cinza2);
 }
 #nav_logo{
     font-size: 20px;
@@ -47,11 +48,13 @@ nav{
     list-style: none;
     font-size: 10px;
     text-transform: uppercase;
+    
 }
 #navegacao li:hover{
     background-color: var(--color-pretoclaro);
     transition: 0.7s; /*Transição da animação do Menu*/
     opacity: 90%; /*Transparência na caixa*/
+    
 }
 #navegacao li a{
     display: inline-block;
@@ -64,12 +67,21 @@ nav{
 
 /*Conteúdo*/
 
+
+
 main{
     display: flex;
     height: 700px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+   gap: 20px;
 }
 
-main, article{
+#section_imagens{
+    width: 250px;
+}
+ article{
     
 }
 
